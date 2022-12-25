@@ -1,0 +1,28 @@
+.smsSender {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0 auto;
+    max-width: max-content;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        &__img {
+            width: 5rem;
+        }
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        max-width: 30rem;
+        gap: 1rem;
+        font-size: 1.4rem;
+    }
+    &__textarea {
+        padding: .5rem;
+    }
+}

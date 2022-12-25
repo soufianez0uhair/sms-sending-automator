@@ -1,13 +1,72 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
 }
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.smsSender {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0 auto;
+  max-width: max-content;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+.smsSender__logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.smsSender__logo__img {
+  width: 5rem;
+}
+.smsSender__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+.smsSender__textarea {
+  padding: 0.5rem;
+}
+
+.btn {
+  width: max-content;
+  padding: 0.5rem;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  background: #000;
+  color: #fff;
+}
+.btn:hover {
+  color: #000;
+  background: #fff;
+}
+
+.app {
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
